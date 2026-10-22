@@ -51,12 +51,6 @@ Racing-Game/
 
 ### Clone the Repository
 
-```bash
-git clone YOUR_GITHUB_REPOSITORY_URL
-```
-
-Replace `YOUR_GITHUB_REPOSITORY_URL` with your actual repository URL.
-
 ## 🕹️ Controls
 
 | Key / Button | Action |
