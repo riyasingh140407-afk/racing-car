@@ -1,0 +1,39 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Speed Racer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="game-container">
+    <h1>🏎️ SPEED RACER</h1>
+
+    <div class="hud">
+      <span>Score: <b id="score">0</b></span>
+      <span>Speed: <b id="speed">1</b></span>
+    </div>
+
+    <div class="game-area">
+      <canvas id="gameCanvas" width="400" height="600"></canvas>
+
+      <div id="message" class="message">
+        <h2>READY TO RACE?</h2>
+        <p>Dodge the traffic and survive!</p>
+        <button id="startBtn">START RACE</button>
+      </div>
+    </div>
+
+    <div class="controls">
+      <button id="leftBtn" aria-label="Move left">⬅ LEFT</button>
+      <button id="rightBtn" aria-label="Move right">RIGHT ➡</button>
+    </div>
+
+    <p class="hint">Use ← → arrow keys or the buttons to drive.</p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
